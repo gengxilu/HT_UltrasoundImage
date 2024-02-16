@@ -13,4 +13,4 @@ To download the sample of ultrasound image data: https://dataverse.harvard.edu/d
    2. Run the Python script directly. Make sure the data path is correct. It is in the Python notebook style to include output from the test environment.
    3. Expected output is already included in the Notebook file. The outputs such as 'Loss in test', and mean error 'MeanE_CNN' should vary slightly due to the random selection of training and testing data. The average processing time per image can vary largely due to the running system specs.
    4. In the test environment listed above, the run time of this demo is usually within 15 minutes.
-   5. To run your data with this script, make    
+   5. To run your data with this script, make the ultrasound image data shape is aligned with the shape of the first layer of the CNN network, and the tracked data shape should align with the output dimension of the last CNN layer.       
