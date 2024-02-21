@@ -6,7 +6,7 @@ To download the sample of ultrasound image data: https://dataverse.harvard.edu/d
    
 2. System requirements:
    Python 3.10; Python packages: Pytorch for Python, Numpy, scikitlearn, Matplotlib.  
-   (Optional, Recommended) Nvidia GPU with CUDA support. If not available, change the 'device' to 'CPU'. This will lead to slightly longer training and running time of the machine learning model. 
+   (Optional, Recommended) Nvidia GPU with CUDA support. If not available, change the 'device' to 'CPU'. This will lead to slightly longer training and running time for the machine learning model. 
 
 3. To run the demo:
    1. Download all files in the repository and the sample of ultrasound image data from the Harvard Dataverse using the above link (file size ~2.5GB). Unzip the Ultrasound image data. 
@@ -15,4 +15,4 @@ To download the sample of ultrasound image data: https://dataverse.harvard.edu/d
    4. In the test environment listed above, the run time of this demo is usually within 15 minutes.
    5. To run your data with this script, make the ultrasound image data shape aligns with the shape of the first layer of the CNN network, and the tracked data shape should align with the output dimension of the last CNN layer.       
 
-If you encounter any problems, feel free to leave comments or directly contact me at gengxilu_'at'_mit.edu
+If you encounter any problems, feel free to leave comments or directly contact me at gengxilu'at'mit.edu
